@@ -1,0 +1,17 @@
+HOW TO CONFIGURE DOCKER TO USE IT FOR THIS PROJECT:
+A) first time:
+1. pull the official mysql docker image (elli feha kol chay hadher bch tasn3elna l container):
+	docker pull mysql
+2. run the container:
+	docker run --name db_urlize -e MYSQL_ROOT_PASSWORD=my-secret-pw -p 3333:3306 -d mysql:latest
+
+nb: -p 3333:3306 sont de la forme port_externe:port_interne, de façon que le port 3306 mysql du container va communiquer avec le port 3333 de la machine (c'est essentiel) 
+nb1: -d mysql:latest est le nom de l'image et son tag, on peut avoir plusieurs images du mm nom avec differents tags
+
+3. if you want to access the mysql server that is running on the container, use this:
+	mysql -u root -p -A
+then enter the password that you put in the running command and access the server normally.
+
+B) other times:
+1. run the container from docker desktop
+2. you can access the mysql server as mentionned earlier
