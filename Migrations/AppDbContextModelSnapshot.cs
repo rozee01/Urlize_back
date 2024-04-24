@@ -18,6 +18,56 @@ namespace Urlize_back.Migrations
                 .HasAnnotation("ProductVersion", "6.0.29")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
+            modelBuilder.Entity("Urlize_back.Models.Business", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("brandDescription")
+                        .IsRequired()
+                        .HasColumnType("longtext")
+                        .HasColumnName("brandDescription");
+
+                    b.Property<string>("businessName")
+                        .IsRequired()
+                        .HasColumnType("longtext")
+                        .HasColumnName("Name");
+
+                    b.Property<string>("categorie")
+                        .HasColumnType("longtext")
+                        .HasColumnName("categorie");
+
+                    b.Property<string>("colorPalette")
+                        .IsRequired()
+                        .HasColumnType("longtext")
+                        .HasColumnName("colorPalette");
+
+                    b.Property<string>("description")
+                        .IsRequired()
+                        .HasColumnType("longtext")
+                        .HasColumnName("description");
+
+                    b.Property<string>("designPref")
+                        .IsRequired()
+                        .HasColumnType("longtext")
+                        .HasColumnName("designPref");
+
+                    b.Property<string>("goal")
+                        .IsRequired()
+                        .HasColumnType("longtext")
+                        .HasColumnName("goal");
+
+                    b.Property<string>("logo_url")
+                        .IsRequired()
+                        .HasColumnType("longtext")
+                        .HasColumnName("logo");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Business");
+                });
+
             modelBuilder.Entity("Urlize_back.Models.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -44,9 +94,30 @@ namespace Urlize_back.Migrations
                         .HasColumnType("float")
                         .HasColumnName("Price");
 
+                    b.Property<int>("businessId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
+                    b.HasIndex("businessId");
+
                     b.ToTable("Product");
+                });
+
+            modelBuilder.Entity("Urlize_back.Models.Product", b =>
+                {
+                    b.HasOne("Urlize_back.Models.Business", "business")
+                        .WithMany("product")
+                        .HasForeignKey("businessId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("business");
+                });
+
+            modelBuilder.Entity("Urlize_back.Models.Business", b =>
+                {
+                    b.Navigation("product");
                 });
 #pragma warning restore 612, 618
         }

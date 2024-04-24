@@ -8,5 +8,6 @@ namespace Urlize_back.Models
             : base(options) 
         { }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Business> Business { get; set; }
     }
 }
