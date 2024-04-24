@@ -18,6 +18,8 @@ namespace Urlize_back.Models
         public bool Available { get; set; }
         [Column("Image")]
         public string? Image {  get; set; }
-
+        [ForeignKey("Business")]
+        public int businessId { get; set; }
+        public Business business { get; set; }
     }
 }
