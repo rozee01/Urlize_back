@@ -26,7 +26,7 @@ namespace Urlize_back.Models
         [Required]
         public string businessName { get; set; }
         [Column("logo")]
-        public string logo_url {  get; set; }
+        public string? logo_url {  get; set; }
         [Column("categorie")]
         public string? categorie { get; set; }
         [Column("description")]
