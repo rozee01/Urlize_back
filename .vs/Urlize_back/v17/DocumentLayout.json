@@ -1,13 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\",
+  "WorkspaceRootPath": "C:\\Users\\Arij\\Documents\\gl3\\ppp\\back2\\Urlize_back\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\dell\\desktop\\ppp\\bach\\urlize_back.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\arij\\documents\\gl3\\ppp\\back2\\urlize_back\\dtos\\businesscreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:dtos\\businesscreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\arij\\documents\\gl3\\ppp\\back2\\urlize_back\\controllers\\businesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:controllers\\businesscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\arij\\documents\\gl3\\ppp\\back2\\urlize_back\\templates\\template 1\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:templates\\template 1\\test.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\arij\\documents\\gl3\\ppp\\back2\\urlize_back\\urlize_back.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:urlize_back.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\dell\\desktop\\ppp\\bach\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\arij\\documents\\gl3\\ppp\\back2\\urlize_back\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\arij\\documents\\gl3\\ppp\\back2\\urlize_back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\arij\\documents\\gl3\\ppp\\back2\\urlize_back\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\arij\\documents\\gl3\\ppp\\back2\\urlize_back\\docker configuration.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:docker configuration.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\arij\\documents\\gl3\\ppp\\back2\\urlize_back\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,8 +46,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 79,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 12,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -62,29 +94,114 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "test.cshtml",
+              "DocumentMoniker": "C:\\Users\\Arij\\Documents\\gl3\\ppp\\back2\\Urlize_back\\Templates\\template 1\\test.cshtml",
+              "RelativeDocumentMoniker": "Templates\\template 1\\test.cshtml",
+              "ToolTip": "C:\\Users\\Arij\\Documents\\gl3\\ppp\\back2\\Urlize_back\\Templates\\template 1\\test.cshtml",
+              "RelativeToolTip": "Templates\\template 1\\test.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-27T21:48:17.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Urlize_back",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\Urlize_back.csproj",
-              "RelativeDocumentMoniker": "Urlize_back.csproj",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\Urlize_back.csproj",
-              "RelativeToolTip": "Urlize_back.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-26T08:15:01.439Z",
+              "Title": "BusinessCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Arij\\Documents\\gl3\\ppp\\back2\\Urlize_back\\Dtos\\BusinessCreateDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\BusinessCreateDto.cs",
+              "ToolTip": "C:\\Users\\Arij\\Documents\\gl3\\ppp\\back2\\Urlize_back\\Dtos\\BusinessCreateDto.cs",
+              "RelativeToolTip": "Dtos\\BusinessCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T21:26:22.084Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "BusinessController.cs",
+              "DocumentMoniker": "C:\\Users\\Arij\\Documents\\gl3\\ppp\\back2\\Urlize_back\\Controllers\\BusinessController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BusinessController.cs",
+              "ToolTip": "C:\\Users\\Arij\\Documents\\gl3\\ppp\\back2\\Urlize_back\\Controllers\\BusinessController.cs",
+              "RelativeToolTip": "Controllers\\BusinessController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwDIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T18:45:15.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Arij\\Documents\\gl3\\ppp\\back2\\Urlize_back\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Arij\\Documents\\gl3\\ppp\\back2\\Urlize_back\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-27T18:41:20.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Arij\\Documents\\gl3\\ppp\\back2\\Urlize_back\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Arij\\Documents\\gl3\\ppp\\back2\\Urlize_back\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T18:39:54.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Arij\\Documents\\gl3\\ppp\\back2\\Urlize_back\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Arij\\Documents\\gl3\\ppp\\back2\\Urlize_back\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T18:39:49.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Urlize_back.csproj",
+              "DocumentMoniker": "C:\\Users\\Arij\\Documents\\gl3\\ppp\\back2\\Urlize_back\\Urlize_back.csproj",
+              "RelativeDocumentMoniker": "Urlize_back.csproj",
+              "ToolTip": "C:\\Users\\Arij\\Documents\\gl3\\ppp\\back2\\Urlize_back\\Urlize_back.csproj",
+              "RelativeToolTip": "Urlize_back.csproj",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACYAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-26T08:15:01.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "docker configuration.txt",
+              "DocumentMoniker": "C:\\Users\\Arij\\Documents\\gl3\\ppp\\back2\\Urlize_back\\docker configuration.txt",
+              "RelativeDocumentMoniker": "docker configuration.txt",
+              "ToolTip": "C:\\Users\\Arij\\Documents\\gl3\\ppp\\back2\\Urlize_back\\docker configuration.txt",
+              "RelativeToolTip": "docker configuration.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-27T17:08:51.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\Models\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Arij\\Documents\\gl3\\ppp\\back2\\Urlize_back\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Arij\\Documents\\gl3\\ppp\\back2\\Urlize_back\\Models\\AppDbContext.cs",
               "RelativeToolTip": "Models\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T08:14:46.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T08:14:46.635Z"
             }
           ]
         }

@@ -44,9 +44,13 @@ namespace Urlize_back.Controllers
         // POST api/<BusinessController>
         [HttpPost]
         public async Task<Business> Post(BusinessCreateDto businessdto)
-        { 
+        {
 
-            return await _genericCRUDService.Add(businessdto);
+            var addedBusiness = await _genericCRUDService.Add(businessdto);
+
+            //ViewData["businessData"]= addedBusiness;
+            return addedBusiness; 
+
         }
 
         // PUT api/<BusinessController>/5

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Urlize_back")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e50c4bf93ef2087cba3ad585dfd347c8f5283e20")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9a8774ce76f623ea539adb81caad721221f0615f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Urlize_back")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Urlize_back")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
