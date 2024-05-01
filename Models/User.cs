@@ -1,12 +1,13 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using System.ComponentModel.DataAnnotations;
 
 namespace Urlize_back.Models
 {
     public class User :IdentityUser
     {
-        public string? BusinessName { get; set; }
-        public string? Categories { get; set;}
+        [Required]
+        public string? LastName { get; set; }
 
-        public string? StudentCard { get; set; }
+        
     }
 }

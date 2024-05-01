@@ -7,7 +7,7 @@ using MySql.EntityFrameworkCore.Metadata;
 namespace Urlize_back.Migrations
 {
     /// <inheritdoc />
-    public partial class tableUser : Migration
+    public partial class init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -35,9 +35,7 @@ namespace Urlize_back.Migrations
                 columns: table => new
                 {
                     Id = table.Column<string>(type: "varchar(255)", nullable: false),
-                    BusinessName = table.Column<string>(type: "longtext", nullable: true),
-                    Categories = table.Column<string>(type: "longtext", nullable: true),
-                    StudentCard = table.Column<string>(type: "longtext", nullable: true),
+                    LastName = table.Column<string>(type: "longtext", nullable: false),
                     UserName = table.Column<string>(type: "varchar(256)", maxLength: 256, nullable: true),
                     NormalizedUserName = table.Column<string>(type: "varchar(256)", maxLength: 256, nullable: true),
                     Email = table.Column<string>(type: "varchar(256)", maxLength: 256, nullable: true),

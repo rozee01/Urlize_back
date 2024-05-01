@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Desktop\\ppp\\bach\\Urlize_back.csproj": {}
+    "C:\\Users\\DELL\\Desktop\\ppp\\back\\Urlize_back.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\Desktop\\ppp\\bach\\Urlize_back.csproj": {
+    "C:\\Users\\DELL\\Desktop\\ppp\\back\\Urlize_back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\Urlize_back.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Urlize_back.csproj",
         "projectName": "Urlize_back",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\Urlize_back.csproj",
+        "projectPath": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Urlize_back.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Desktop\\ppp\\back\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
