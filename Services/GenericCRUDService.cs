@@ -7,7 +7,7 @@ using Urlize_back.Models;
 namespace Urlize_back.Services
 {
 
-    public class GenericCRUDService<TModel,Tdto> : IGenericCRUDService<TModel,Tdto>
+    public class GenericCRUDService<TModel,Tdto1,Tdto2> : IGenericCRUDService<TModel,Tdto1,Tdto2>
      where TModel : class
     {
         private readonly IMapper _mapper;
@@ -52,7 +52,7 @@ namespace Urlize_back.Services
             return entity;
         }
 
-        public async Task<TModel> Add(Tdto dto)
+        public async Task<TModel> Add(Tdto1 dto)
         {
             if (dto == null) { throw new Exception("bad request"); }
             var entity = _mapper.Map<TModel>(dto);
@@ -62,7 +62,7 @@ namespace Urlize_back.Services
             return entity;
         }
 
-        public async Task<TModel> Update(int id, Tdto dto)
+        public async Task<TModel> Update(int id, Tdto2 dto)
         {
             var entity = await _dbContext.Set<TModel>().FindAsync(id);
             if (entity == null)

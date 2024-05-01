@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Urlize_back.props" />
-</Project>

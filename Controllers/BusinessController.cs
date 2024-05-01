@@ -16,13 +16,13 @@ namespace Urlize_back.Controllers
     {
         private readonly IMapper _mapper;
         private readonly AppDbContext _context;
-        private IGenericCRUDService<Business,BusinessCreateDto> _genericCRUDService;
+        private IGenericCRUDService<Business,BusinessCreateDto,BusinessUpdateDto> _genericCRUDService;
         public BusinessController(AppDbContext context,IMapper mapper)
         {
             _mapper = mapper;
 
             _context = context;
-            _genericCRUDService = new GenericCRUDService<Business, BusinessCreateDto>(_mapper, context);
+            _genericCRUDService = new GenericCRUDService<Business, BusinessCreateDto,BusinessUpdateDto>(_mapper, context);
         }
 
         // GET: api/<BusinessController>
@@ -51,7 +51,7 @@ namespace Urlize_back.Controllers
 
         // PUT api/<BusinessController>/5
         [HttpPut("{id}")]
-        public async Task<Business> Put(int id, BusinessCreateDto business)
+        public async Task<Business> Put(int id, BusinessUpdateDto business)
         {
             return await _genericCRUDService.Update(id, business);
         }
