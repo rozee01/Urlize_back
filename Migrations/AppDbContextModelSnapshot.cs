@@ -240,12 +240,6 @@ namespace Urlize_back.Migrations
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
 
-                    b.Property<string>("BusinessName")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Categories")
-                        .HasColumnType("longtext");
-
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("longtext");
@@ -256,6 +250,10 @@ namespace Urlize_back.Migrations
 
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("tinyint(1)");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("tinyint(1)");
@@ -281,9 +279,6 @@ namespace Urlize_back.Migrations
                         .HasColumnType("tinyint(1)");
 
                     b.Property<string>("SecurityStamp")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("StudentCard")
                         .HasColumnType("longtext");
 
                     b.Property<bool>("TwoFactorEnabled")

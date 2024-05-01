@@ -11,8 +11,8 @@ using Urlize_back.Models;
 namespace Urlize_back.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240425230843_tableUser")]
-    partial class tableUser
+    [Migration("20240501210726_init")]
+    partial class init
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -243,12 +243,6 @@ namespace Urlize_back.Migrations
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
 
-                    b.Property<string>("BusinessName")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Categories")
-                        .HasColumnType("longtext");
-
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("longtext");
@@ -259,6 +253,10 @@ namespace Urlize_back.Migrations
 
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("tinyint(1)");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("tinyint(1)");
@@ -284,9 +282,6 @@ namespace Urlize_back.Migrations
                         .HasColumnType("tinyint(1)");
 
                     b.Property<string>("SecurityStamp")
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("StudentCard")
                         .HasColumnType("longtext");
 
                     b.Property<bool>("TwoFactorEnabled")
