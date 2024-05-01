@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\dell\\desktop\\ppp\\bach\\.gitigonre.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:.gitigonre.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\dell\\desktop\\ppp\\bach\\docker configuration.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:docker configuration.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\dell\\desktop\\ppp\\bach\\dtos\\businesscreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:dtos\\businesscreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\dell\\desktop\\ppp\\bach\\services\\genericcrudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:services\\genericcrudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\dell\\desktop\\ppp\\bach\\urlize_back.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:urlize_back.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -18,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 79,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -61,21 +77,74 @@
               "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Urlize_back",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\Urlize_back.csproj",
-              "RelativeDocumentMoniker": "Urlize_back.csproj",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\Urlize_back.csproj",
-              "RelativeToolTip": "Urlize_back.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-26T08:15:01.439Z",
+              "Title": ".gitigonre.txt",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\.gitigonre.txt",
+              "RelativeDocumentMoniker": ".gitigonre.txt",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\.gitigonre.txt",
+              "RelativeToolTip": ".gitigonre.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-01T08:22:08.796Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BusinessCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\Dtos\\BusinessCreateDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\BusinessCreateDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\Dtos\\BusinessCreateDto.cs",
+              "RelativeToolTip": "Dtos\\BusinessCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T13:40:53.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenericCRUDService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\Services\\GenericCRUDService.cs",
+              "RelativeDocumentMoniker": "Services\\GenericCRUDService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\Services\\GenericCRUDService.cs",
+              "RelativeToolTip": "Services\\GenericCRUDService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T13:40:42.578Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "docker configuration.txt",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\docker configuration.txt",
+              "RelativeDocumentMoniker": "docker configuration.txt",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\docker configuration.txt",
+              "RelativeToolTip": "docker configuration.txt",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-26T13:11:55.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Urlize_back.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\Urlize_back.csproj",
+              "RelativeDocumentMoniker": "Urlize_back.csproj",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\Urlize_back.csproj",
+              "RelativeToolTip": "Urlize_back.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-26T08:15:01.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\bach\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
@@ -83,8 +152,7 @@
               "RelativeToolTip": "Models\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T08:14:46.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T08:14:46.635Z"
             }
           ]
         }
