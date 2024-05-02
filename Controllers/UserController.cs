@@ -92,7 +92,11 @@ namespace Urlize_back.Controllers
             try
             {
                 User user_ = await um.FindByEmailAsync(login.Email);
-                if(user_ != null & user_.EmailConfirmed) {
+                if (user_ == null)
+                {
+                    return BadRequest("verify ur credentiels ! ");
+                }
+                if(user_ != null & user_.EmailConfirmed){
                     return Unauthorized("check ur Email and verify ur account !");
                 }
 
