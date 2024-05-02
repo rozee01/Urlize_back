@@ -7,12 +7,28 @@
       "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\ppp\\back\\Migrations\\20240501210726_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240501210726_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\dell\\desktop\\ppp\\back\\docker configuration.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:docker configuration.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\dell\\desktop\\ppp\\back\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\dell\\desktop\\ppp\\back\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\dell\\desktop\\ppp\\back\\dtos\\businesscreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:dtos\\businesscreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\dell\\desktop\\ppp\\back\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\dell\\desktop\\ppp\\back\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\dell\\desktop\\ppp\\back\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\dell\\desktop\\ppp\\back\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\Desktop\\ppp\\back\\Migrations\\20240501175152_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240501175152_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -35,8 +47,8 @@
       "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\dell\\desktop\\ppp\\back\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\dell\\desktop\\ppp\\back\\migrations\\20240501210726_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:migrations\\20240501210726_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 79,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -95,41 +107,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "20240501210726_init.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Migrations\\20240501210726_init.cs",
-              "RelativeDocumentMoniker": "Migrations\\20240501210726_init.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Migrations\\20240501210726_init.cs",
-              "RelativeToolTip": "Migrations\\20240501210726_init.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T21:07:26.879Z",
+              "Title": "docker configuration.txt",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\back\\docker configuration.txt",
+              "RelativeDocumentMoniker": "docker configuration.txt",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\back\\docker configuration.txt",
+              "RelativeToolTip": "docker configuration.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-02T10:13:53.862Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
+              "DocumentIndex": 2,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Services\\EmailService.cs",
+              "RelativeToolTip": "Services\\EmailService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T20:46:31.171Z",
+              "WhenOpened": "2024-05-02T10:06:48.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Models\\Login.cs",
-              "RelativeDocumentMoniker": "Models\\Login.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Models\\Login.cs",
-              "RelativeToolTip": "Models\\Login.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Title": "BusinessCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Dtos\\BusinessCreateDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\BusinessCreateDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Dtos\\BusinessCreateDto.cs",
+              "RelativeToolTip": "Dtos\\BusinessCreateDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T19:52:08.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T10:05:37.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\back\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\back\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-01T21:40:00.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\back\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\back\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-01T08:52:10.568Z"
             },
             {
               "$type": "Document",
@@ -139,27 +174,50 @@
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Controllers\\UserController.cs*",
               "RelativeToolTip": "Controllers\\UserController.cs*",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAcwCYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T17:33:30.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "Models\\Login.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Models\\Login.cs",
+              "RelativeToolTip": "Models\\Login.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T19:52:08.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T20:46:31.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Dtos\\RegisterDto.cs",
               "RelativeDocumentMoniker": "Dtos\\RegisterDto.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Dtos\\RegisterDto.cs",
               "RelativeToolTip": "Dtos\\RegisterDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAdAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAswAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T17:41:32.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T17:41:32.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "20240501175152_init.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Migrations\\20240501175152_init.cs",
               "RelativeDocumentMoniker": "Migrations\\20240501175152_init.cs",
@@ -167,25 +225,23 @@
               "RelativeToolTip": "Migrations\\20240501175152_init.cs",
               "ViewState": "AQIAAB8AAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T17:51:52.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T17:51:52.69Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACAAAAADAAAA",
+              "DocumentIndex": 11,
+              "Title": "20240501210726_init.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Migrations\\20240501210726_init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240501210726_init.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Migrations\\20240501210726_init.cs",
+              "RelativeToolTip": "Migrations\\20240501210726_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T09:00:52.356Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-01T21:07:26.879Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\back\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
@@ -194,18 +250,6 @@
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T08:57:12.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\ppp\\back\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\ppp\\back\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-05-01T08:52:10.568Z"
             }
           ]
         }

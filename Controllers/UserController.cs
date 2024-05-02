@@ -36,9 +36,8 @@ namespace Urlize_back.Controllers
                 };
 
                 result = await um.CreateAsync(user_,user.Password);
-                await um.AddToRoleAsync(user_, "Business Owner");
 
-                await SendConfirmationEmail(user.Email, user_);
+                //await SendConfirmationEmail(user.Email, user_);
                 if (!result.Succeeded) return BadRequest(result.Errors);
                 message = "Registered successfully";
             }catch (Exception ex)
@@ -47,7 +46,7 @@ namespace Urlize_back.Controllers
             }
             return Ok(new { message = message ,result=result});  ;
         }
-
+        [HttpPost]
 
         private async Task SendConfirmationEmail(string? email, User? user)
         {
@@ -56,7 +55,7 @@ namespace Urlize_back.Controllers
             var confirmationLink = $"http://localhost:3000/check?UserId={user.Id}&Token={token}";
             await _emailService.SendEmailAsync(email, "Confirm Your Email", $"Please confirm your account by <a href='{confirmationLink}'>clicking here</a>;.", true);
         }
-
+        [HttpGet]
 
         public async Task<String> ConfirmEmail(string userId, string token)
         {
