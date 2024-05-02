@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Urlize_back.Dtos;
 
@@ -27,8 +28,6 @@ namespace Urlize_back.Models
         public string businessName { get; set; }
         [Column("logo")]
         public string logo_url {  get; set; }
-        [Column("categorie")]
-        public string? categorie { get; set; }
         [Column("description")]
         [Required]
         public string? description { get; set; }
@@ -43,7 +42,11 @@ namespace Urlize_back.Models
 
         [Column("goal")]
         public string goal { get; set;}
-        public Product[]? product { get; set;}
+
+        public ICollection<Product> product { get; set; } 
+        public ICollection<Categorie> categorie { get; set; } 
+        public ICollection<Catalogue> catalogue { get; set; } 
+
 
     }
 }

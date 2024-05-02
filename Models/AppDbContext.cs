@@ -9,5 +9,7 @@ namespace Urlize_back.Models
         { }
         public DbSet<Product> Products { get; set; }
         public DbSet<Business> Business { get; set; }
+        public DbSet<Catalogue> Catalogue {  get; set; }
+        public DbSet<Categorie> Categorie { get; set; }
     }
 }

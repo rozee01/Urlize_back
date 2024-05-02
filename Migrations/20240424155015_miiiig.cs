@@ -10,27 +10,13 @@ namespace Urlize_back.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropForeignKey(
-                name: "FK_Product_Business_businessId",
-                table: "Product");
-
-            migrationBuilder.DropIndex(
-                name: "IX_Product_businessId",
-                table: "Product");
-
-            migrationBuilder.AddColumn<Guid>(
-                name: "businessId1",
-                table: "Product",
-                type: "char(36)",
-                nullable: false,
-                defaultValue: new Guid("00000000-0000-0000-0000-000000000000"));
+         
 
             migrationBuilder.AlterColumn<string>(
                 name: "logo",
                 table: "Business",
                 type: "longtext",
                 nullable: false,
-                defaultValue: "",
                 oldClrType: typeof(string),
                 oldType: "longtext",
                 oldNullable: true);

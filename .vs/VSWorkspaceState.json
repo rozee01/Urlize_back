@@ -1,10 +1,10 @@
 {
   "ExpandedNodes": [
-    "",
     "\\Controllers",
+    "\\Dtos",
     "\\Migrations",
-    "\\Models"
+    "\\Models",
+    "\\Services"
   ],
-  "SelectedNode": "\\docker configuration.txt",
   "PreviewInSolutionExplorer": false
 }
