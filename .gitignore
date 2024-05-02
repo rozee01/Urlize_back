@@ -1,5 +1,4 @@
 
-# Ignore modifications to Visual Studio files
 .vs/
 obj/
 bin/Debug
