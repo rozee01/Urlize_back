@@ -19,10 +19,6 @@
       "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:models\\business.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Urlize_back\\Migrations\\20240502081003_farahmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240502081003_farahmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\user\\desktop\\urlize_back\\models\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:models\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -57,6 +53,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\user\\desktop\\urlize_back\\dtos\\categoriecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:dtos\\categoriecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|c:\\users\\user\\desktop\\urlize_back\\migrations\\20240502081003_farahmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C398AA-785B-476B-A4CA-88DCF0C0E6F6}|Urlize_back.csproj|solutionrelative:migrations\\20240502081003_farahmig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "20240502081003_farahmig.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Urlize_back\\Migrations\\20240502081003_farahmig.cs",
               "RelativeDocumentMoniker": "Migrations\\20240502081003_farahmig.cs",
@@ -106,8 +106,7 @@
               "RelativeToolTip": "Migrations\\20240502081003_farahmig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T08:10:03.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T08:10:03.445Z"
             },
             {
               "$type": "Document",
@@ -117,7 +116,7 @@
               "RelativeDocumentMoniker": "Migrations\\20240424155015_miiiig.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Urlize_back\\Migrations\\20240424155015_miiiig.cs",
               "RelativeToolTip": "Migrations\\20240424155015_miiiig.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAIBAwBMAAAAAAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAiwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-02T08:00:40.406Z",
               "EditorCaption": ""
@@ -132,12 +131,11 @@
               "RelativeToolTip": "Models\\Product.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAowBUAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T07:54:51.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T07:54:51.201Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Urlize_back\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
@@ -145,12 +143,11 @@
               "RelativeToolTip": "Models\\AppDbContext.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAiwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T21:10:47.232Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-29T21:10:47.232Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Categorie.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Urlize_back\\Models\\Categorie.cs",
               "RelativeDocumentMoniker": "Models\\Categorie.cs",
@@ -158,8 +155,7 @@
               "RelativeToolTip": "Models\\Categorie.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T21:09:38.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-29T21:09:38.038Z"
             },
             {
               "$type": "Document",
@@ -171,8 +167,7 @@
               "RelativeToolTip": "Models\\Business.cs",
               "ViewState": "AQIAACgAAAAAAAAAAAAAAB8AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T21:09:24.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-29T21:09:24.338Z"
             },
             {
               "$type": "Document",
@@ -184,12 +179,11 @@
               "RelativeToolTip": "Models\\Catalogue.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAIBAwA8AAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T21:00:06.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-29T21:00:06.784Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "docker configuration.txt",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Urlize_back\\docker configuration.txt",
               "RelativeDocumentMoniker": "docker configuration.txt",
@@ -197,12 +191,11 @@
               "RelativeToolTip": "docker configuration.txt",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-04-29T21:26:04.321Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-29T21:26:04.321Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Urlize_back\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -210,12 +203,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-02T07:34:38.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T07:34:38.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "BusinessController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Urlize_back\\Controllers\\BusinessController.cs",
               "RelativeDocumentMoniker": "Controllers\\BusinessController.cs",
@@ -227,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "CatalogueCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Urlize_back\\Dtos\\CatalogueCreateDto.cs",
               "RelativeDocumentMoniker": "Dtos\\CatalogueCreateDto.cs",
@@ -239,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "CategorieController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Urlize_back\\Controllers\\CategorieController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategorieController.cs",
@@ -251,7 +243,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "CategorieCreateDto.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Urlize_back\\Dtos\\CategorieCreateDto.cs",
               "RelativeDocumentMoniker": "Dtos\\CategorieCreateDto.cs",
@@ -263,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "CatalogueController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Urlize_back\\Controllers\\CatalogueController.cs",
               "RelativeDocumentMoniker": "Controllers\\CatalogueController.cs",
