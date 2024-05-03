@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Urlize_back\\Urlize_back.csproj": {}
+    "C:\\Users\\User\\Desktop\\Urlize_dotnet\\Urlize_back.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Urlize_back\\Urlize_back.csproj": {
+    "C:\\Users\\User\\Desktop\\Urlize_dotnet\\Urlize_back.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Urlize_back\\Urlize_back.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Urlize_dotnet\\Urlize_back.csproj",
         "projectName": "Urlize_back",
-        "projectPath": "C:\\Users\\User\\Desktop\\Urlize_back\\Urlize_back.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Urlize_dotnet\\Urlize_back.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Urlize_back\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Urlize_dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

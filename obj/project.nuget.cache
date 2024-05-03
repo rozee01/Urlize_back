@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PEejHSagiL6DBm+ig7xROcYR2anW6Z84j8shDfPUWGr+zFsytdCM9ZNl81WMJQpx0mDYrrivQAtFWob+7vG4tQ==",
+  "dgSpecHash": "wFloMG1GTY1yWALM2qmk/Pe3HW+wNdw2xYlFz9Bs+GgeiTd6HHtT2OPqsM/p3EpHPFdUrEC+TKA+1/INV+vgCg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\Urlize_back\\Urlize_back.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\Urlize_dotnet\\Urlize_back.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
