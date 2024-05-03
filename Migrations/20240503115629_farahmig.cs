@@ -7,7 +7,7 @@ using MySql.EntityFrameworkCore.Metadata;
 namespace Urlize_back.Migrations
 {
     /// <inheritdoc />
-    public partial class init : Migration
+    public partial class farahmig : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -65,7 +65,6 @@ namespace Urlize_back.Migrations
                         .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
                     Name = table.Column<string>(type: "longtext", nullable: false),
                     logo = table.Column<string>(type: "longtext", nullable: true),
-                    categorie = table.Column<string>(type: "longtext", nullable: true),
                     description = table.Column<string>(type: "longtext", nullable: false),
                     colorPalette = table.Column<string>(type: "longtext", nullable: false),
                     designPref = table.Column<string>(type: "longtext", nullable: false),
@@ -75,6 +74,19 @@ namespace Urlize_back.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Business", x => x.Id);
+                })
+                .Annotation("MySQL:Charset", "utf8mb4");
+
+            migrationBuilder.CreateTable(
+                name: "Categorie",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Categorie", x => x.Id);
                 })
                 .Annotation("MySQL:Charset", "utf8mb4");
 
@@ -214,6 +226,76 @@ namespace Urlize_back.Migrations
                 })
                 .Annotation("MySQL:Charset", "utf8mb4");
 
+            migrationBuilder.CreateTable(
+                name: "BusinessCategorie",
+                columns: table => new
+                {
+                    businessesId = table.Column<int>(type: "int", nullable: false),
+                    categorieId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_BusinessCategorie", x => new { x.businessesId, x.categorieId });
+                    table.ForeignKey(
+                        name: "FK_BusinessCategorie_Business_businessesId",
+                        column: x => x.businessesId,
+                        principalTable: "Business",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_BusinessCategorie_Categorie_categorieId",
+                        column: x => x.categorieId,
+                        principalTable: "Categorie",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                })
+                .Annotation("MySQL:Charset", "utf8mb4");
+
+            migrationBuilder.CreateTable(
+                name: "Catalogue",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
+                    CategorieId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Catalogue", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Catalogue_Categorie_CategorieId",
+                        column: x => x.CategorieId,
+                        principalTable: "Categorie",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                })
+                .Annotation("MySQL:Charset", "utf8mb4");
+
+            migrationBuilder.CreateTable(
+                name: "BusinessCatalogue",
+                columns: table => new
+                {
+                    businessId = table.Column<int>(type: "int", nullable: false),
+                    catalogueId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_BusinessCatalogue", x => new { x.businessId, x.catalogueId });
+                    table.ForeignKey(
+                        name: "FK_BusinessCatalogue_Business_businessId",
+                        column: x => x.businessId,
+                        principalTable: "Business",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_BusinessCatalogue_Catalogue_catalogueId",
+                        column: x => x.catalogueId,
+                        principalTable: "Catalogue",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                })
+                .Annotation("MySQL:Charset", "utf8mb4");
+
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
                 table: "AspNetRoleClaims",
@@ -252,6 +334,21 @@ namespace Urlize_back.Migrations
                 unique: true);
 
             migrationBuilder.CreateIndex(
+                name: "IX_BusinessCatalogue_catalogueId",
+                table: "BusinessCatalogue",
+                column: "catalogueId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_BusinessCategorie_categorieId",
+                table: "BusinessCategorie",
+                column: "categorieId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Catalogue_CategorieId",
+                table: "Catalogue",
+                column: "CategorieId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Product_businessId",
                 table: "Product",
                 column: "businessId");
@@ -276,6 +373,12 @@ namespace Urlize_back.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
+                name: "BusinessCatalogue");
+
+            migrationBuilder.DropTable(
+                name: "BusinessCategorie");
+
+            migrationBuilder.DropTable(
                 name: "Product");
 
             migrationBuilder.DropTable(
@@ -285,7 +388,13 @@ namespace Urlize_back.Migrations
                 name: "AspNetUsers");
 
             migrationBuilder.DropTable(
+                name: "Catalogue");
+
+            migrationBuilder.DropTable(
                 name: "Business");
+
+            migrationBuilder.DropTable(
+                name: "Categorie");
         }
     }
 }

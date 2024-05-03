@@ -11,8 +11,8 @@ using Urlize_back.Models;
 namespace Urlize_back.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240501210726_init")]
-    partial class init
+    [Migration("20240503115629_farahmig")]
+    partial class farahmig
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -21,6 +21,36 @@ namespace Urlize_back.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "8.0.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
+
+            modelBuilder.Entity("BusinessCatalogue", b =>
+                {
+                    b.Property<int>("businessId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("catalogueId")
+                        .HasColumnType("int");
+
+                    b.HasKey("businessId", "catalogueId");
+
+                    b.HasIndex("catalogueId");
+
+                    b.ToTable("BusinessCatalogue");
+                });
+
+            modelBuilder.Entity("BusinessCategorie", b =>
+                {
+                    b.Property<int>("businessesId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("categorieId")
+                        .HasColumnType("int");
+
+                    b.HasKey("businessesId", "categorieId");
+
+                    b.HasIndex("categorieId");
+
+                    b.ToTable("BusinessCategorie");
+                });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
@@ -166,10 +196,6 @@ namespace Urlize_back.Migrations
                         .HasColumnType("longtext")
                         .HasColumnName("Name");
 
-                    b.Property<string>("categorie")
-                        .HasColumnType("longtext")
-                        .HasColumnName("categorie");
-
                     b.Property<string>("colorPalette")
                         .IsRequired()
                         .HasColumnType("longtext")
@@ -197,6 +223,33 @@ namespace Urlize_back.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Business");
+                });
+
+            modelBuilder.Entity("Urlize_back.Models.Catalogue", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int>("CategorieId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CategorieId");
+
+                    b.ToTable("Catalogue");
+                });
+
+            modelBuilder.Entity("Urlize_back.Models.Categorie", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Categorie");
                 });
 
             modelBuilder.Entity("Urlize_back.Models.Product", b =>
@@ -303,6 +356,36 @@ namespace Urlize_back.Migrations
                     b.ToTable("AspNetUsers", (string)null);
                 });
 
+            modelBuilder.Entity("BusinessCatalogue", b =>
+                {
+                    b.HasOne("Urlize_back.Models.Business", null)
+                        .WithMany()
+                        .HasForeignKey("businessId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Urlize_back.Models.Catalogue", null)
+                        .WithMany()
+                        .HasForeignKey("catalogueId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("BusinessCategorie", b =>
+                {
+                    b.HasOne("Urlize_back.Models.Business", null)
+                        .WithMany()
+                        .HasForeignKey("businessesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Urlize_back.Models.Categorie", null)
+                        .WithMany()
+                        .HasForeignKey("categorieId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -352,6 +435,17 @@ namespace Urlize_back.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Urlize_back.Models.Catalogue", b =>
+                {
+                    b.HasOne("Urlize_back.Models.Categorie", "categorie")
+                        .WithMany()
+                        .HasForeignKey("CategorieId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("categorie");
                 });
 
             modelBuilder.Entity("Urlize_back.Models.Product", b =>
